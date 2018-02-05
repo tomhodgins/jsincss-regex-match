@@ -1,6 +1,6 @@
 {
   "name": "jsincss-regex-match",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A regex matching plugin for jsincss",
   "main": "index.js",
   "scripts": {
