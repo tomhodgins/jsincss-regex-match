@@ -1,4 +1,4 @@
-module.exports = (selector, regex, rule) => {
+function regex(selector, regex, rule) {
 
   return Array.from(document.querySelectorAll(selector))
 
