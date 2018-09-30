@@ -10,8 +10,6 @@ module.exports = (selector, regex, rule) => {
 
       tag.setAttribute(`data-regex-${attr}`, count)
       styles += `[data-regex-${attr}="${count}"] { ${rule} }\n`
-      count++
-
       return styles
 
     }, '')
