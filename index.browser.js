@@ -2,7 +2,7 @@ function regex(selector, regex, rule) {
 
   return Array.from(document.querySelectorAll(selector))
 
-    .filter(tag => regex.test(tag.textContent))
+    .filter(tag => new RegExp(regex).test(tag.textContent))
 
     .reduce((styles, tag, count) => {
 
